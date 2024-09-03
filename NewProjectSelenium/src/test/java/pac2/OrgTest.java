@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class OrgTest {
 	
 	@Test
-	public void createOrg() {
+	public void createOrgTest() {
 		System.out.println("CreateOrg");
 		String browser=System.getProperty("browser");
 		String url=System.getProperty("url");
@@ -19,11 +19,11 @@ public class OrgTest {
 		
 	}
 	@Test
-	public void modifyOrg() {
+	public void modifyOrgTest() {
 		System.out.println("modifyOrg");
 	}
 	@Test
-	public void deleteOrg() {
+	public void deleteOrgTest() {
 		System.out.println("deleteOrg");
 	}
 
