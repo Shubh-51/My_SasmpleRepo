@@ -24,4 +24,8 @@ public class ContactTest {
 	public void deleteContact() {
 		System.out.println("deleteContact");
 	}
+	@Test
+	public void createContactWithOrg() {
+		System.out.println("contact is created with org");
+	}
 }
